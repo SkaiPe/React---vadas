@@ -1,4 +1,4 @@
-import FuncButton from "./FuncButton";
+import FuncButton from "/FuncButton";
 
 function FuncDiv(){
     return (
