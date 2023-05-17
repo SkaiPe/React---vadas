@@ -1,5 +1,5 @@
 // importas ra6omas viršuje
-import FuncButton from "./components/FuncButton";
+import FuncButton from "./FuncButton";
 import "./App.css";
 
 //apibrėžiame komponento pavadinimą.Visada didžiąja raidefunction App() {
