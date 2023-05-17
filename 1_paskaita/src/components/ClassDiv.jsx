@@ -1,5 +1,5 @@
 import React from "react";
-import ClassButton from "./ClassButton";
+import ClassButton from "/ClassButton";
 
 class ClassDiv extends React.Component {
     render(){
