@@ -1,5 +1,5 @@
 import React from "react";
-import ClassButton from "/ClassButton";
+import PropTypes  from "prop-types";
 
 class ClassDiv extends React.Component {
     render(){
@@ -7,9 +7,12 @@ class ClassDiv extends React.Component {
         <div>
             <h3>Pavadinimas</h3>
             <p> Kažkoks textas </p>
-            <ClassButton name= "Class mygtukas2"/>
+            <button>{this.props.title}</button> 
         </div>
-        )  
+        ); 
      }
 }
+ClassDiv.propTypes = {
+    title: PropTypes.string,
+ };
     export default ClassDiv;

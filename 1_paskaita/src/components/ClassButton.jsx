@@ -7,7 +7,11 @@ class ClassButton extends React.Component {
     }
 }
 
-ClassButton.propTypes ={
-    name: PropTypes.string
-}
-   export default ClassButton
+ClassButton.propTypes = {
+    title: PropTypes.string,
+};
+ClassButton.defaultProps = {
+    title: "Click",
+};
+
+   export default ClassButton;
