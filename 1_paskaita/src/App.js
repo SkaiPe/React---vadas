@@ -43,7 +43,7 @@ function App() {
       </div>
       <div>
         <Card
-          ImageUrl="https://macrogamta.lt//sites/default/files/ad_photos/Vikrusis%20drie%C5%BEas%20-%20Lacerta%20agilis_2020-09-02.jpg"
+          imageUrl="https://macrogamta.lt//sites/default/files/ad_photos/Vikrusis%20drie%C5%BEas%20-%20Lacerta%20agilis_2020-09-02.jpg"
           title="Lizard"
           subtitle="Green Lizard (Lacerta bilineata) This stunning,
           brightly coloured lizard is native to the Channel Islands and has been

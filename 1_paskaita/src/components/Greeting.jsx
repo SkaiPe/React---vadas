@@ -6,7 +6,7 @@
  Greeting.propTypes = {
     name: PropTypes.string,
  }
- Greeting.defaultProps = {
+ Greeting.defaultProps = {   //aprašomas panačiai. 
     name: "User",
  };
  export default Greeting;
