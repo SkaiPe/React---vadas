@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 // arrow funkcija ir props destrukcija
 const Product = ({ category, name, price }) => {
+  //naujesnė versija
   return (
     <div className="productCard">
       <div className="category">{category}</div>
