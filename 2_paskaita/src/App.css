@@ -4,3 +4,9 @@
     gap: 10px;
     background-color: rgb(142, 231, 32);
 }
+.hero{
+    display: flex;
+    align-items: left;
+    gap: 10px;
+    background-color: rgb(46, 191, 227);  
+}
