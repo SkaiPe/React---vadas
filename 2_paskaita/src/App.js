@@ -1,12 +1,16 @@
 import Car from "./components/Car";
 import FuncCar from "./components/FuncCar";
 import FuncBestCar from "./components/FuncBestCar";
-// import Counter from "./components/Counter";
+import Counter from "./components/Counter";
 import "./App.css";
 
 function App() {
   return (
     <div>
+      <Counter />
+      <br />
+      <br />
+      <br />
       <h2>Klasės</h2>
       <Car />
       <br />
