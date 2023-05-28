@@ -25,8 +25,8 @@ const Posts = () => {
       {postsExists && (
         //parodyk komentarus, jei tikrai jie yra
         <>
-          <Post title={posts[0]} />
-          <Post title={posts[1]} />
+          <Post post={posts[0]} />
+          <Post post={posts[1]} />
         </>
       )}
     </div>
