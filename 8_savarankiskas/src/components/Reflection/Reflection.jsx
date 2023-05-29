@@ -1,17 +1,20 @@
 import { useState } from "react";
 import "./Reflection.css";
+import smile from "../../images/smile.jpg";
+import crazy from "../../images/crazy.jpg";
+import cry from "../../images/cry.png";
 
 const Reflection = () => {
   const [message] = useState("Kaip sekėsi atlikti užduotį?");
-
+  const [image, setImage] = useState(null);
   const setImage1 = () => {
-    setImage1("./src/images/smile.jpg");
+    setImage(0);
   };
   const setImage2 = () => {
-    setImage2("./src/images/crazy.jpg");
+    setImage(1);
   };
   const setImage3 = () => {
-    setImage3("./src/images/cry.jpg");
+    setImage(2);
   };
 
   return (
@@ -23,9 +26,12 @@ const Reflection = () => {
       <button className="crazy" onClick={setImage2}>
         Na ir pasitūsinau ;-)
       </button>
-      <button className="cry..." onClick={setImage3}>
+      <button className="cry" onClick={setImage3}>
         Ne kažką :(
       </button>
+      {image === 0 && <img src={smile} alt="smile" />}
+      {image === 0 && <img src={crazy} alt="crazy" />}
+      {image === 0 && <img src={cry} alt="cry" />}
     </div>
   );
 };
