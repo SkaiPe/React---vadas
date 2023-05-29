@@ -18,13 +18,13 @@ const Reflection = () => {
     <div>
       <h2>{message}</h2>
       <button className="smile" onClick={setImage1}>
-        Ačiū, gerai
+        Ačiū, gerai :)
       </button>
       <button className="crazy" onClick={setImage2}>
-        Na ir pasitūsinau
+        Na ir pasitūsinau ;-)
       </button>
       <button className="cry..." onClick={setImage3}>
-        Ne kažką
+        Ne kažką :(
       </button>
     </div>
   );
