@@ -4,7 +4,7 @@ import "./Reflection.css";
 const Reflection = () => {
   const [message] = useState("Kaip sekėsi atlikti užduotį?");
 
-  const setImage1 = (smile) => {
+  const setImage1 = () => {
     setImage1("./src/images/smile.jpg");
   };
   const setImage2 = () => {

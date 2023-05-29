@@ -1,0 +1,38 @@
+.btn {
+     border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 20px;
+    letter-spacing: 1.2px;
+  }
+  
+  .pazint {
+    background-color: #78ed0b;
+    color: #044a22;
+    border: 2px solid #159007;
+    box-shadow: rgba(0, 0, 0, 0.314) 0px 3px 8px;
+  }
+  
+  .komunikac {
+    background-color: #f3be1187;
+    color: #8b8329;
+    border: 2px solid #6d3e03;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+      
+  .orientac {
+    background-color: rgb(232, 228, 228);
+    border: 2px solid #2e2f30;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #222426;
+  }
+
+  .daile {
+    border: 2px solid #a730e7;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #0b4e8d;
+    background-color: rgb(221, 156, 236);
+  }

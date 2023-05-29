@@ -1,0 +1,17 @@
+.hero {
+    width: 100vw;
+    background-color: #0c7a27;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .hero h1,
+  .hero h3 {
+    font-weight: 500;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  .hero h1 {
+    font-size: 50px;
+    color: yellow;
+      }
