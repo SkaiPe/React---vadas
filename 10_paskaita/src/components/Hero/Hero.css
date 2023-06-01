@@ -1,0 +1,37 @@
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/48/28/pynm5b.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .button {
+    background-color: hsl(0, 75%, 50%);
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 20px;
+    letter-spacing: 1.2px;
+  }
+    /* justify-self: center;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+    
+  
+   border-radius: 5px;
+   margin: 20px;   
+   background-color: rgb(27, 231, 207);
+   color: white;
+   
+ } */
+ 
