@@ -1,0 +1,14 @@
+.cardContainer {
+    width: 250px;
+    background-color: white;
+    margin-bottom: 3.5rem;
+}
+
+.cardContainer > img {
+    width: 100%;
+}
+
+.cardContainer > p {
+    text-align: center;
+    color: grey;
+}
