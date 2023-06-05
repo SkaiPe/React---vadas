@@ -1,16 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Hero.css";
-import Button from "../Button/Button";
 
-const Hero = ({ title, subtitle }) => {
+const Hero = ({ title, subtitle, text }) => {
   return (
     <div className="hero">
       {title && <h1>{title}</h1>}
       {subtitle && <h3>{subtitle}</h3>}
-      <div className="button">
-        <button onClick={Button}>Button</button>
-      </div>
+      <p>{text}</p>
+      <button>Button</button>
     </div>
   );
 };
