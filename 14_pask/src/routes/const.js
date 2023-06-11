@@ -1,7 +1,7 @@
 import Main from "../pages/Main/Main";
 import Contacts from "../pages/Contacts/Contacts";
 import Login from "../pages/Login/Login";
-import Register from "../pages/Register/Register";
+import Register from "../pages/Register/Register.jsx";
 import LoginLayout from "../layouts/LoginLayout";
 import AuthenticatedLayout from "../layouts/AuthenticatedLayout";
 
