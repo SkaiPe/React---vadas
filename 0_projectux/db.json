@@ -34,51 +34,38 @@
     }
   ],
   "projects": [
-  {
-    "id": 1,
-    "userId": 1,
-    "title": "PASKAIČIUOKIM",
-    "description": "Orientacinės veikos užduotys",
-    "imageUrl": "https://static.vecteezy.com/system/resources/previews/000/113/753/original/vector-3d-colorful-math-symbols.jpg",
-    "client": "Merko statyba, UAB",
-    "startingDate": "2023-06-14T15:33:46Z",
-    "endingDate": "2024-06-14T15:33:46Z",
-    "people": [
-      {
-        "name": "Rokas",
-        "surname": "Broniukas",
-        "position": "Engineer"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "userId": 1,
-    "title": "PABENDRAUKIM:)",
-    "description": "Reconstruction work of an administration building located at T. Ševčenkos Street 13, Vilnius, was performed. Main work: dismantling of floors, reinforced concrete structures, masonry walls, and openings. Demolition work of one part of the building, removal of construction scrap, and preparation of the territory for construction work.",
-    "imageUrl": "https://cdn-icons-png.flaticon.com/512/3201/3201615.png",
-    "client": "Merko statyba, UAB",
-    "startingDate": "2023-06-14T15:33:46Z",
-    "endingDate": "2024-06-14T15:33:46Z",
-    "people": [
-      {
-        "name": "Rokas",
-        "surname": "Broniukas",
-        "position": "Engineer"
-      }
-    ]
-  },
-  
-  {
-    "userId": 1,
-    "title": "KURKIME",
-    "description": "DAILĖ",
-    "imageUrl": "https://cdn-icons-png.flaticon.com/512/178/178390.png",
-    "client": "Testavicius",
-    "startingDate": "2012-12-12",
-    "endingDate": "2012-02-12",
-    "people": [],
-    "id": 3
-  }
-]
+    {
+      "id": 1,
+      "userId": 3,
+      "title": "PASKAIČIUOKIM",
+      "description": "Orientacinės veikos užduotys",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/000/113/753/original/vector-3d-colorful-math-symbols.jpg",
+      "client": "UK progimnazija",
+      "startingDate": "2023-09-01",
+      "endingDate": "2024-06-23",
+      "people": []
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "title": "PABENDRAUKIM:)",
+      "description": "Parašyk 5 daiktavardžius, lemiančius gerą savijautą kalbant su draugais.",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3201/3201615.png",
+      "client": "UK progimnazija",
+      "startingDate": "2023-09-01",
+      "endingDate": "2024-06-23",
+      "people": []
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "KURKIME",
+      "description": "DAILĖ",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/178/178390.png",
+      "client": "UK progimnazija",
+      "startingDate": "2023-09-01",
+      "endingDate": "2024-06-23",
+      "people": []
+    }
+  ]
 }
