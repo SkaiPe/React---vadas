@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { ThemeProvider as StyledComponentsThemeProvider } from "styled-components";
 
 const theme = {
@@ -46,5 +47,7 @@ const ThemeProvider = ({ children }) => (
     {children}
   </StyledComponentsThemeProvider>
 );
-
+ThemeProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 export default ThemeProvider;
