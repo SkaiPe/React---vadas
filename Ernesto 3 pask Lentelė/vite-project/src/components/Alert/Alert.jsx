@@ -6,51 +6,51 @@ const Alert = ({ color, children }) => {
     switch (color) {
       case PALETTE.light:
         return {
-          backgroundColor: "#cccccc",
-          color: "#f2f2f2",
-          border: "2px solid #ffffff",
+          backgroundColor: "#FCFCFD",
+          color: "#416694",
+          border: "1px solid #F3F5F6",
         };
       case PALETTE.dark:
         return {
-          backgroundColor: "#000000",
-          color: "#acacac",
-          border: "2px solid #212529",
+          backgroundColor: "#CED4DA",
+          color: "#000000",
+          border: "1px solid #CED4DA",
         };
       case PALETTE.primary:
         return {
-          backgroundColor: "#00327c",
+          backgroundColor: "#CFE2FF",
           color: "#79a7ff",
-          border: "2px solid #2B6EFD",
+          border: "1px solid #2B6EFD",
         };
       case PALETTE.secondary:
         return {
-          backgroundColor: "#4b545c",
+          backgroundColor: "#E2E3E5",
           color: "#8c959e",
-          border: "2px solid #6C757D",
+          border: "1px solid #6C757D",
         };
       case PALETTE.success:
         return {
-          backgroundColor: "#1d5737",
+          backgroundColor: "#D1E7DD",
           color: "#4bbf7c",
-          border: "2px solid #288754",
+          border: "1px solid #288754",
         };
       case PALETTE.danger:
         return {
-          backgroundColor: "#b52933",
+          backgroundColor: "#F8D7DA",
           color: "#d76c77",
-          border: "2px solid #DC3545",
+          border: "1px solid #DC3545",
         };
       case PALETTE.warning:
         return {
-          backgroundColor: "#c69306",
-          color: "#ffdb84",
-          border: "2px solid #F9C108",
+          backgroundColor: "#FFF3CD",
+          color: "#E6AC44",
+          border: "1px solid #F9C108",
         };
       case PALETTE.info:
         return {
-          backgroundColor: "#1992d6",
-          color: "#a6e6ff",
-          border: "2px solid #44CAEF",
+          backgroundColor: "#9EEAF9",
+          color: "#416694",
+          border: "1px solid #44CAEF",
         };
       default:
         return {};
